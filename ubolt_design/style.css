@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #003399;
+    --secondary-color: #F1F6FF;
+    --green-color: #CBF1F8;
+    /* Text color variable */
+    --text-white: white;
+    --text-black: black;
+    /* Font Family */
+    --primary-font: "Poppins", sans-serif;
+}
+.d-flex {
+    display: flex;
+}
+.justify-content {
+    justify-content: space-between;
+}
+.center {
+    align-items: center;
+}
+/* header Section  */
+header {
+    padding: 10px;
+    font-family: var(--primary-font);
+}
+.logo {
+    filter: brightness(1.1);
+}
+/* logictics Section  */
+.logictics {
+    /* height: 100vh; */
+    background-color: var(--secondary-color);
+}
+.heading h1 {
+    font-size: 42px;
+    font-weight: bold;
+    font-family:var(--primary-font);
+    padding: 20px;
+}
+.Activity {
+    height: 138px;
+    background-color: var(--primary-color);
+    color: var(--text-white);
+    padding-left: 71px;
+    margin-left: 20px;
+    margin-top: 29px;
+}
+.Activity b {
+    font-family: var(--primary-font);
+    font-size: 55px;
+    font-weight: 700;
+}
+.Activity p{
+    font-family: var(--primary-font);
+}
+.img-box{
+    position: relative;
+}
+.img-box img {
+    width: 205px;
+    height: 211px;
+    margin-top: 47px;
+}
+.border{
+    height: 4px;
+    width: 50px;
+    background-color: #1d3140;
+    border-radius: 2px;
+    position: absolute;
+    top: 254px;
+    right: 82%;
+}
+.date {
+    padding: 20px;
+    font-family: var(--primary-font);
+}
+/* business_operations_section */
+.business_operations {
+    margin-top: 27px;
+}
+
+.business_operations_left_box {
+    padding: 10px;   
+    background-color: var(--green-color);
+}
+.business_operations_right_box button {
+    padding: 7px;
+    letter-spacing: 1px;
+    background-color: var(--text-white);
+    border: 1px solid #003399;
+    color: var(--primary-color);
+}
+.consignment_btn {
+    border-radius: 5px;
+    transition: background-color 1s ease-in-out;
+}
+.consignment_btn:hover {
+    background-color: var(--primary-color);
+    cursor: pointer;
+    color: var(--text-white);
+}
+.border_bottem {
+    height: 7px;
+    width: 100%;
+    background-color: var(--green-color);
+}
+
+.business_operations_section {
+    padding: 20px;
+}
+.container {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+.top-row {
+    gap: 15px;
+}
+.bottom-row {
+    gap: 15px;
+}
+.top-row .box {
+    flex: 1;
+}
+.bottom-row .box {
+    flex: 1;
+}
+.box {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border: 1px solid #91d5ff;
+}
+.box span {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 10px;
+    color: var(--text-black);
+    font-family: var(--primary-font);
+}
+.box p {
+    font-size: 1rem;
+    color: var(--text-black);
+    font-family: var(--primary-font);
+    margin-bottom: 20px;
+}
+.arrow_icon {
+    height: 28px;
+    padding-left: 10px;
+}
+
+/* VEHICLES Sections*/
+.VEHICLES_sections {
+    background-color: var(--primary-color);
+    padding: 20px;
+    margin-top: 40px;
+}
+.VEHICLES_section {
+    margin-top: 27px;
+}
+
+.VEHICLES_section_left_box {
+    padding: 10px;
+    background-color: var(--green-color);
+}
+.dashboard-container {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+.status-row {
+    gap: 15px;
+}
+.metrics-row {
+    gap: 15px;
+    background: white;
+}
+.status-row .status-box {
+    flex: 1;
+}
+.metrics-row .metrics-box {
+    flex: 1;
+}
+.status-box {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border: 1px solid #91d5ff;
+}
+.metrics-box {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border: 1px solid #91d5ff;
+}
+.status-box span {
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--text-black);
+    margin-top: 10px;
+    font-family: var(--primary-font);
+}
+.metrics-box span {
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--text-black);
+    margin-top: 10px;
+    font-family: var(--primary-font);
+}
+.status-box p {
+    font-size: 1rem;
+    color: var(--text-black);
+    font-family: var(--primary-font);
+    margin-bottom: 20px;
+}
+.metrics-box p {
+    font-size: 1rem;
+    color: var(--text-black);
+    font-family: var(--primary-font);
+    margin-bottom: 20px;
+}
+
+/* vehicle-performance section  */
+.vehicle-performance {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.vehicle-performance_left_box p {
+    padding: 10px;
+    background-color: var(--green-color);
+    font-family: var(--primary-font);
+}
+.dashboard-btn {
+    padding: 7px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    background-color: var(--text-white);
+    border: 1px solid #003399;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    transition: background-color 1s ease-in-out;
+    margin-bottom: 8px;
+}
+.dashboard-btn:hover {
+    background-color: var(--primary-color);
+    cursor: pointer;
+    color: var(--text-white);
+}
+.top-cards {
+    gap: 15px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.top-cards .card {
+    flex: 1;
+    min-width: 30%;
+}
+.bottom-cards {
+    gap: 15px;
+}
+.bottom-cards .card {
+    flex: 1;
+    min-width: 45%;
+}
+.card {
+    background-color: var(--secondary-color);
+    border: 1px solid #91d5ff;
+    padding: 20px;
+}
+.card p {
+    font-size: 1rem;
+    color: var(--text-black);
+    font-family: var(--primary-font);
+    margin-bottom: 20px;
+}
+.card span {
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--text-black);
+    margin-top: 10px;
+    font-family: var(--primary-font);
+}
+.card h4 {
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--text-black);
+    margin-top: 10px;
+    font-family: var(--primary-font);
+}
+/* trip-expenses-section  */
+.trip-expenses {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.trip-expenses_left_box {
+    padding: 10px;
+    background-color: var(--green-color);
+    font-family: var(--primary-font);
+}
+.trip-expenses-top-row,
+.trip-expenses-bottom-row {
+    gap: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.expense-box {
+    flex: 1;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border: 1px solid #91d5ff;
+}
+.expense-box p {
+    font-size: 1rem;
+    color: var(--text-black);
+    font-family: var(--primary-font);
+    margin-bottom: 20px;
+}
+.expense-box span {
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--text-black);
+    margin-top: 10px;
+    font-family: var(--primary-font);
+}
+/* footer code  */
+.footer_section {
+    padding: 7px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+.footer{
+    height: 40vh;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+.footer .social-icons {
+    margin-bottom: 15px;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+.footer .social-icons img {
+    width: 24px;
+    height: 24px;
+}
+.footer-links {
+    margin-bottom: 10px;
+}
+.footer-links a {
+    text-decoration: none;
+    color: #666;
+    margin: 0 5px;
+}
+.footer-text {
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+.footer-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+.footer-text a:hover {
+    text-decoration: underline;
+}
+.footer-copyright {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #999;
+}
